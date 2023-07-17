@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 
-st.title("Uber pickups in NYC New again")
+# st.title("Uber pickups in NYC New again")
 
 # DATE_COLUMN = "date/time"
 # DATA_URL = (
@@ -39,5 +39,5 @@ st.title("Uber pickups in NYC New again")
 # st.subheader("Map of all pickups at %s:00" % hour_to_filter)
 # st.map(filtered_data)
 
-title = st.text_input("Movie title", "Life of Brian")
-st.write("The current movie title is", title)
+prompt = st.text_input("Enter Prompt")
+st.write("AI:", prompt)
